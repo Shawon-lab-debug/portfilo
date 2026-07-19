@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nuzz{
+    color: #fd6e01;
+}
+
+.aw{
+    color: #fd6e01;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.common-btn{
+    background-color: #fd6e01;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.outline-btn{
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid #fd6e01;
+    color: #fd6e01;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* hero section start */
+
+.hero-parent-root{
+    background-color:#fff8f3;
+}
+
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff8f3;
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.hero-left-p-1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.hero-left-button{
+    margin-top: 12px;
+}
+
+/* about me */
+.about-me{
+    background-color: #fff8f3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 70px;
+    text-align: center;
+}
+
+.about-me p{
+    margin: 10px 0px;
+}
+
+.about-me-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
