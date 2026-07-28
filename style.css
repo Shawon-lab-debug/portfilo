@@ -252,3 +252,81 @@ nav ul li a{
 .img6{
     grid-area: six;
 }
+
+/* Footer */
+
+.footer-section{
+    background-color: #fff8f3;
+    margin-top: 100px;
+    padding: 100px 0px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+/* Left */
+
+.footer-left{
+    flex: 1;
+}
+
+.footer-left h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.footer-left p{
+    line-height: 1.8;
+    max-width: 430px;
+    margin-bottom: 30px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a{
+    color: #fd6e01;
+    font-size: 25px;
+    transition: .3s;
+}
+
+.social-icons a:hover{
+    transform: translateY(-4px);
+}
+
+/* Right */
+
+.footer-right{
+    flex: 1;
+}
+
+.footer-right h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.footer-right form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-right input,textarea{
+    width: 100%;
+    padding: 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.footer-right button{
+    width: 150px;
+    border-radius: 10px;
+}
